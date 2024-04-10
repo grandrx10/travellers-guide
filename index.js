@@ -16,9 +16,6 @@ app.listen(port, () => {
 app.use(express.static('public'));
 
 
-
-const { initializeApp } = require('firebase-admin/app');
-
 // let service_account = require('./travellers-guide-c9f6a-firebase-adminsdk-e9vt0-f05726b781.json')
 const admin = require('firebase-admin');
 // Initialize Firebase
